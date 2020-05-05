@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+body .calculadora-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .calculadora-container .calculadora-botones {
+  display: flex;
+  flex-direction: row;
+}
+body .calculadora-container .calculadora-botones .boton {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+body .calculadora-container .calculadora-botones .calculadora-numeros {
+  display: flex;
+  flex-wrap: wrap;
+  width: 312px;
+}
+body .calculadora-container .calculadora-botones .calculadora-simbolos-matematicos {
+  display: flex;
+  flex-direction: column;
+}
+body .calculadora-container .calculadora-visor {
+  width: 412px;
+  height: 100px;
+  background: white;
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
