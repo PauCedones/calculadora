@@ -1,38 +1,58 @@
 body {
-  background: black;
-}
-body .calculadora-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
-body .calculadora-container .calculadora-botones {
+body .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 612px;
+  background: #7511c7;
+  border-right: 30px solid #E65C9C;
+  border-top: 30px solid #E65C9C;
+  border-radius: 5%;
+}
+body .contenedor .pantalla {
+  width: 412px;
+  height: 100px;
+  background: #E65C9C;
+  margin-bottom: 20px;
+}
+body .contenedor .pantalla #resultado {
+  padding: 10px;
+  font-family: "Oswald";
+  color: white;
+  font-size: 50px;
+}
+body .contenedor .teclas {
+  display: flex;
+}
+body .contenedor .teclas button {
+  width: 100px;
+  height: 100px;
+  font-family: "Oswald";
+  font-size: 50px;
+  margin: 2px;
+  background: #b1a5eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+body .contenedor .teclas .num-group {
   display: flex;
   flex-direction: row;
 }
-body .calculadora-container .calculadora-botones .boton {
-  width: 100px;
-  height: 100px;
-  border: 2px solid black;
-  background: white;
-  font-size: 70px;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-}
-body .calculadora-container .calculadora-botones .calculadora-numeros {
+body .contenedor .teclas .relegados {
   display: flex;
-  flex-wrap: wrap;
-  width: 312px;
 }
-body .calculadora-container .calculadora-botones .calculadora-simbolos-matematicos {
+body .contenedor .operaciones {
   display: flex;
   flex-direction: column;
 }
-body .calculadora-container .calculadora-visor {
-  width: 412px;
-  height: 100px;
-  background: white;
-  border: 2px solid black;
+body .contenedor .operaciones button {
+  font-size: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */

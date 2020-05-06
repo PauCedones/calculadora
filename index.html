@@ -8,29 +8,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="calculadora-container">
-        <div class="calculadora-visor"></div>
-        <div class="calculadora-botones">
-            <div class="calculadora-numeros">
-                <div class="boton">7</div>
-                <div class="boton">8</div>
-                <div class="boton">9</div>
-                <div class="boton">4</div>
-                <div class="boton">5</div>
-                <div class="boton">6</div>
-                <div class="boton">1</div>
-                <div class="boton">2</div>
-                <div class="boton">3</div>
-                <div class="boton">,</div>
-                <div class="boton">0</div>
-                <div class="boton"></div>
+    <div class="contenedor">
+
+        <!--VISOR-->
+        <div class="pantalla">
+            <div id="resultado">blabla</div>
+        </div>
+        <!--BOTONES-->
+        <div class="teclas">
+            <!--NUMEROS-->
+            <div class="numeros">
+                <div class="num-group">
+                    <button id ="n1" >1</button>
+                    <button id ="n2" >2</button>
+                    <button id ="n3" >3</button>
+                </div>
+                <div class="num-group">
+                    <button id ="n4" >4</button>
+                    <button id ="n5" >5</button>
+                    <button id ="n6" >6</button>
+                </div>
+                <div class="num-group">
+                    <button id ="n7" >7</button>
+                    <button id ="n8" >8</button>
+                    <button id ="n9" >9</button>
+                </div>
+                <div class="relegados">
+                    <button id ="n0" >0</button>
+                    <button id ="sblComa" >,</button>
+                </div>
             </div>
-            <div class="calculadora-simbolos-matematicos">
-                <div class="boton">+</div>
-                <div class="boton">-</div>
-                <div class="boton">x</div>
-                <div class="boton">÷</div>
+            <!--OPERACIONES MATEMATICAS-->
+            <div class="operaciones">
+                <button id ="sblMas" >+</button>
+                <button id ="sblMenos" >-</button>
+                <button id ="sblMultiplicar" >x</button>
+                <button id ="sblDividir" >÷</button>
             </div>
+
         </div>
     </div>
 
