@@ -3,6 +3,7 @@ body {
   justify-content: center;
 }
 body .contenedor {
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,15 +11,15 @@ body .contenedor {
   width: 500px;
   height: 612px;
   background: #7511c7;
-  border-right: 30px solid #E65C9C;
-  border-top: 30px solid #E65C9C;
   border-radius: 5%;
+  box-shadow: 42px 33px 0px 8px #e65c9c;
 }
 body .contenedor .pantalla {
   width: 412px;
   height: 100px;
   background: #E65C9C;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 body .contenedor .pantalla #resultado {
   padding: 10px;
@@ -39,6 +40,7 @@ body .contenedor .teclas button {
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 body .contenedor .teclas .num-group {
   display: flex;
