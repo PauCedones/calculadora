@@ -8,13 +8,10 @@ body{
         justify-content: center;
         flex-direction: column;
         width:500px;
-        height: 612px;
+        height: 712px;
         background: rgb(117, 17, 199);
         border-radius: 5%;
         box-shadow: 42px 33px 0px 8px rgba(230,92,156,1);
-        
-        
-        
         .pantalla{
             width:412px;
             height: 100px;
@@ -41,6 +38,9 @@ body{
                 border: none;
                 cursor: pointer;
                 border-radius: 5px;
+                &:hover{
+                    background: #74b5c9;
+                }
     
             }
             .num-group{
@@ -48,17 +48,38 @@ body{
                 flex-direction: row; 
             }
             .relegados{
-                display:flex;
-                
+                display:flex;                
             }
-    
+            .operaciones{
+                display: flex;
+                flex-direction: column;
+                button{
+                    font-size: 70px;
+                    &:hover{
+                        background: #E65C9C;
+                    }
+                }
+            }
         }
-        .operaciones{
-            display: flex;
-            flex-direction: column;
+        .igual{
             button{
-                font-size: 70px;
-            }
+                width: 412px;
+                height: 50px;
+                font-family: 'Oswald';
+                font-size: 30px;
+                background:#74b5c9;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                margin:10px;
+                &:hover{
+                    background: #b1a5eb;
+                }
+                
+            }     
+            
         }
+        
     }
 }
