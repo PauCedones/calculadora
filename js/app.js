@@ -1,5 +1,4 @@
 
-
 /*
 1- Visualizar los botones correspondientes en el display
     1.1- hacer el evento
